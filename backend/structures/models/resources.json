@@ -1,0 +1,90 @@
+{
+    "Resource":"uaa::users",
+    "ValidActions":[
+        "uaa::users::CreateUser",
+        "uaa::users::GetUser",
+        "uaa::users::GetAllUsers",
+        "uaa::users::DeleteUser",
+        "uaa::users::UpdateOtherUser",
+        "uaa::users::UpdateOwnUser"
+    ]
+}
+
+{
+    "Resource":"uaa::auth",
+    "ValidActions":[
+        "uaa::auth::Login",
+        "uaa::auth::AssignPassword",
+        "uaa::auth::ResetPassword"
+    ]
+}
+
+{
+    "Resource":"uaa::roles",
+    "ValidActions":[
+        "uaa::roles::CreateRole",
+        "uaa::roles::AssignRole",
+        "uaa::roles::RemoveRole",
+        "uaa::roles::GetRole",
+        "uaa::roles::GetAllRoles",
+        "uaa::roles::DeleteRole",
+        "uaa::roles::UpdateOtherRole",
+        "uaa::roles::UpdateOwnRole"
+    ]
+}
+
+{
+    "Resource":"uaa::groups",
+    "ValidActions":[
+        "uaa::groups::CreateGroup",
+        "uaa::groups::AssignGroup",
+        "uaa::groups::RemoveGroup",
+        "uaa::groups::GetGroup",
+        "uaa::groups::GetAllGroups",
+        "uaa::groups::DeleteGroup",
+        "uaa::groups::UpdateOtherGroup",
+        "uaa::groups::UpdateOwnGroup"
+    ]
+}
+
+{
+    "Resource":"uaa::policies",
+    "ValidActions":[
+        "uaa::policies::CreatePolicy",
+        "uaa::policies::AssignPolicy",
+        "uaa::policies::RemovePolicy",
+        "uaa::policies::GetPolicy",
+        "uaa::policies::GetAllPolicies",
+        "uaa::policies::DeletePolicy",
+        "uaa::policies::UpdateOtherPolicy",
+        "uaa::policies::UpdateOwnPolicy"
+    ]
+}
+
+{
+    "Resource":"audit::metrics",
+    "ValidActions":[
+        "audit::metrics::GetUsersMetrics",
+        "audit::metrics::GetAuthMetrics",
+        "audit::metrics::GetRolesMetrics",
+        "audit::metrics::GetGroupsMetrics",
+        "audit::metrics::GetPoliciesMetrics",
+        "audit::metrics::CreateTTL",
+        "audit::metrics::UpdateTTL",
+        "audit::metrics::RemoveTTL",
+    ]
+}
+
+{
+    "Resource":"audit::logs",
+    "ValidActions":[
+        "audit::logs::GetUsersLogs",
+        "audit::logs::GetAuthLogs",
+        "audit::logs::GetRolesLogs",
+        "audit::logs::GetGroupsLogs",
+        "audit::logs::GetPoliciesLogs",
+        "audit::logs::CreateTTL",
+        "audit::logs::UpdateTTL",
+        "audit::logs::RemoveTTL",
+    ]
+}
