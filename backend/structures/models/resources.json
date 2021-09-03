@@ -88,3 +88,9 @@
         "audit::logs::RemoveTTL",
     ]
 }
+
+{
+    "Resource":"dummyResource::dummyFeature",
+    "ValidActions":[
+    ]
+}
